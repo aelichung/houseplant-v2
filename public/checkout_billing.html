@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Houseplant-Product-Page</title>
+  <meta name="author" content="Anne-Elise Chung" />
+  <meta name="keywords" content="Chung, Anne-Elise, plants, plant, indoor, store, product-page" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/header.css" type="text/css" />
+  <link rel="stylesheet" href="css/checkout.css" type="text/css" />
+  <link rel="stylesheet" href="css/billing.css" type="text/css" />
+  <link rel="stylesheet" href="css/footer.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+</head>
+
+<body>
+  <section class="header-container">
+    <div class="header-top-icons">
+      <div class="filler">
+        <div class="mobile">
+          <button class="hamburger">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+          </button>
+        </div>
+      </div>
+      <a href="index.html">
+        <div>
+          <img class="header-houseplant-logo" alt="houseplant-logo" src="images/logo.png" />
+        </div>
+      </a>
+      <div>
+        <img class="header-cart" alt="cart" src="images/cart.png" />
+      </div>
+    </div>
+    <div class="header-brush">
+      <div class="header-menu">
+        <a href="gallery" class="header-menu-item">SHOP</a>
+        <a href="index.html" class="header-menu-item">HOME</a>
+        <a href="index.html" class="desktop header-menu-item">BLOG</a>
+        <a href="index.html" class="desktop header-menu-item">CONTACT</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="checkout-progress-container">
+    <div class="checkout-progress-top">
+      <p class="checkout-progress-text">
+        Address
+      </p>
+      <p class="checkout-progress-text">
+        Shipping and<br />Payment
+      </p>
+      <p class="checkout-progress-text">
+        Review and<br />Submit
+      </p>
+    </div>
+    <div class="checkout-progress-bottom">
+      <img alt="progress" src="images/checkout_progress.png" />
+    </div>
+  </section>
+
+  <section class="contact-billing-container">
+    <h1 class="brush-header">Contact Information</h1>
+    <p class="sub-header">
+      Leave us a way to contact you about delivery details.<br /> Don’t worry, we won’t be spamming you or sharing this information with anyone.
+    </p>
+
+    <form id="contact-billing">
+      <div>
+        <span>Email Address</span>
+        <input type="text" name="email">
+      </div>
+
+      <h1 class="brush-header">Billing Address</h1>
+      <div>
+        <span>Full Name</span>
+        <input type="text" name="fullname">
+      </div>
+      <div>
+        <span>Address</span>
+        <input type="text" name="address">
+      </div>
+      <div>
+        <span>Suite, Apt. #<br />(optional)</span>
+        <input type="text" name="second-address-line">
+      </div>
+      <div class="city-state">
+        <div class="city">
+          <span>City</span>
+          <input type="text" name="city">
+        </div>
+        <div class="state">
+          <span>State</span>
+          <input type="text" name="state">
+        </div>
+      </div>
+      <div>
+        <span>Zip Code</span>
+        <input type="text" name="fullname">
+      </div>
+      <div class="radio-buttons">
+        <div>
+          <input class="radio-button" type="radio" name="shipping-address" value="billing-address" id="b-address" checked>
+          <label class="radio-flex-row" for="b-address">
+            <div class="radio-button-box">
+            </div>
+            <span>Ship to my Billing Address</span>
+          </label>
+        </div>
+        <div>
+          <input class="radio-button" type="radio" name="shipping-address" value="new-address" id="n-address">
+          <label class="radio-flex-row" for="b-address">
+              <div class="radio-button-box">
+              </div>
+              <span>Enter a New Address</span>
+          </label>
+        </div>
+      </div>
+
+
+    </form>
+    <a href="checkout_shipping_payment.html"><button class="CTA-large-green">Next : Shipping and Payment</button></a>
+  </section>
+
+
+  <section class="footer-container">
+    <div class="footer-flex-text">
+      <div class="footer-column-text">
+        <p>
+          Contact Us
+        </p>
+        <p>
+          FAQ
+        </p>
+      </div>
+      <div class="footer-column-text">
+        <p>
+          My Account
+        </p>
+        <p>
+          Help Center
+        </p>
+      </div>
+      <div class="footer-column-text">
+        <p>
+          Shop
+        </p>
+        <p>
+          Blog
+        </p>
+      </div>
+    </div>
+    <div class="footer-logo">
+      <img alt="logo" src="images/logo.png" />
+    </div>
+  </section>
+</body>
+<footer>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/checkout.js"></script>
+</footer>
+
+</html>

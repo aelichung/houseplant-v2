@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Houseplant-Product-Page</title>
+  <meta name="author" content="Anne-Elise Chung" />
+  <meta name="keywords" content="Chung, Anne-Elise, plants, plant, indoor, store, product-page" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/header.css" type="text/css" />
+  <link rel="stylesheet" href="css/checkout.css" type="text/css" />
+  <link rel="stylesheet" href="css/review.css" type="text/css" />
+  <link rel="stylesheet" href="css/footer.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+</head>
+
+<body>
+  <section class="header-container">
+    <div class="header-top-icons">
+      <div class="filler">
+        <div class="mobile">
+          <button class="hamburger">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+          </button>
+        </div>
+      </div>
+      <a href="index.html">
+        <div>
+          <img class="header-houseplant-logo" alt="houseplant-logo" src="images/logo.png" />
+        </div>
+      </a>
+      <div>
+        <img class="header-cart" alt="cart" src="images/cart.png" />
+      </div>
+    </div>
+    <div class="header-brush">
+      <div class="header-menu">
+        <a href="gallery" class="header-menu-item">SHOP</a>
+        <a href="index.html" class="header-menu-item">HOME</a>
+        <a href="index.html" class="desktop header-menu-item">BLOG</a>
+        <a href="index.html" class="desktop header-menu-item">CONTACT</a>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="checkout-progress-container">
+    <div class="checkout-progress-top">
+      <p class="checkout-progress-text">
+        Address
+      </p>
+      <p class="checkout-progress-text">
+        Shipping and<br />Payment
+      </p>
+      <p class="checkout-progress-text">
+        Review and<br />Submit
+      </p>
+    </div>
+    <div class="checkout-progress-bottom">
+      <img alt="progress" src="images/checkout_progress3.png" />
+    </div>
+  </section>
+
+  <section class="review-details-container">
+    <div class="review-details-column">
+      <h1 class="brush-header-small">Bill To</h1>
+      <div class="review-text-container">
+        <p class="billing-address">
+          Erika Green<br /> 5608 Folsom Street<br /> San Francisco, CA 94123<br />
+        </p>
+      </div>
+      <h1 class="brush-header-small">Contact</h1>
+      <div class="review-text-container">
+        <p class="contact-info">
+          egreen@gmail.com
+        </p>
+      </div>
+      <a href="checkout_billing.html"><button class="CTA-small-white">Edit</button></a>
+    </div>
+    <div class="green-line-column">
+
+    </div>
+    <div class="review-details-column">
+      <h1 class="brush-header-small">Ship To</h1>
+      <div class="review-text-container">
+        <p class="shipping-address">
+          Ship to Billing Address
+        </p>
+      </div>
+      <h1 class="brush-header-small">Shipping Method</h1>
+      <div class="review-text-container">
+        <p class="shipping-method">
+          <b>Estimated January 15th ($3.99)</b><br /> Standard Shipping (4-5 days)
+        </p>
+      </div>
+      <a href="checkout_shipping_payment.html"><button class="CTA-small-white">Edit</button></a>
+    </div>
+    <div class="green-line-column">
+
+    </div>
+    <div class="review-details-column">
+      <h1 class="brush-header-small">Payment</h1>
+      <div class="review-text-container">
+        <p class="payment">
+          Visa...4321 <br /> Exp: 03/2020
+        </p>
+      </div>
+      <a href="checkout_shipping_payment.html"><button class="CTA-small-white">Edit</button></a>
+    </div>
+  </section>
+
+  <div class="center-flex">
+    <a href="checkout_thank_you.html"><button class="CTA-large-green">Submit My Order</button></a>
+  </div>
+
+  <section class="order-details-container">
+    <div class="order-details">
+      <div class="order-detail-left">
+        <div class="order-image">
+          <img alt="cart-item-image" src="images/cart_plant_item.png" />
+        </div>
+      </div>
+      <div class="order-detail-right">
+        <h2 class="order-header">'Tippy'</h2>
+        <p class="order-subheader">
+          Echeveria
+        </p>
+        <p class="item-price">
+          $4.50
+        </p>
+        <div class="plant-size-row">
+          <img alt="plant pot diameter 4 inches" src="images/pot_size_4_active.png" />
+          <img alt="plant pot diameter 4 inches" src="images/pot_size_6.png" />
+        </div>
+        <form class="quantity-spinner">
+          <img class="spinner-less" src="images/less_quantity_icon.png" />
+          <input type="number" type name="quantity" value="1" min="0" max="10" />
+          <img class="spinner-more " src="images/more_quantity_icon.png" />
+        </form>
+      </div>
+    </div>
+
+    <div class="order-summary">
+      <h3>Order Summary</h3>
+      <div class="summary-text">
+        <div class="summary-row">
+          <p>
+            Items:
+          </p>
+          <p>
+            $4.50
+          </p>
+        </div>
+        <div class="summary-row">
+          <p>
+            Shipping and Handling:
+          </p>
+          <p>
+            $3.99
+          </p>
+        </div>
+        <div class="summary-row">
+          <p>
+            Estimated Tax:
+          </p>
+          <p>
+            $1.70
+          </p>
+        </div>
+        <div class="green-line-row">
+
+        </div>
+        <div class="summary-row last-row">
+          <p class="total">
+            Order Total:
+          </p>
+          <p class="total">
+            $10.19
+          </p>
+        </div>
+
+      </div>
+  </section>
+
+  <section class="footer-container">
+    <div class="footer-flex-text">
+      <div class="footer-column-text">
+        <p>
+          Contact Us
+        </p>
+        <p>
+          FAQ
+        </p>
+      </div>
+      <div class="footer-column-text">
+        <p>
+          My Account
+        </p>
+        <p>
+          Help Center
+        </p>
+      </div>
+      <div class="footer-column-text">
+        <p>
+          Shop
+        </p>
+        <p>
+          Blog
+        </p>
+      </div>
+    </div>
+    <div class="footer-logo">
+      <img alt="logo" src="images/logo.png" />
+    </div>
+  </section>
+</body>
+<footer>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/review.js"></script>
+</footer>
+
+</html>

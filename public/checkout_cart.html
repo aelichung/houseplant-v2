@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Houseplant-Product-Page</title>
+  <meta name="author" content="Anne-Elise Chung" />
+  <meta name="keywords" content="Chung, Anne-Elise, plants, plant, indoor, store, product-page" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/header.css" type="text/css" />
+  <link rel="stylesheet" href="css/checkout.css" type="text/css" />
+  <link rel="stylesheet" href="css/cart.css" type="text/css" />
+  <link rel="stylesheet" href="css/footer.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+</head>
+
+<body>
+  <section class="header-container">
+    <div class="header-top-icons">
+      <div class="filler">
+        <div class="mobile">
+          <button class="hamburger">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+          </button>
+        </div>
+      </div>
+      <a href="index.html">
+        <div>
+          <img class="header-houseplant-logo" alt="houseplant-logo" src="images/logo.png" />
+        </div>
+      </a>
+      <div>
+        <img class="header-cart" alt="cart" src="images/cart.png" />
+      </div>
+    </div>
+    <div class="header-brush">
+      <div class="header-menu">
+        <a href="gallery" class="header-menu-item">SHOP</a>
+        <a href="index.html" class="header-menu-item">HOME</a>
+        <a href="index.html" class="desktop header-menu-item">BLOG</a>
+        <a href="index.html" class="desktop header-menu-item">CONTACT</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="cart-container">
+    <h1 class="brush-header">My Cart</h1>
+    <div class="cart-item-container">
+      <div class="header-text-row">
+        <div class="item-div">
+          <h1>Item</h1>
+        </div>
+        <div class="price-div">
+          <h1>Price</h1>
+        </div>
+        <div class="quantity-div">
+          <h1>Quantity</h1>
+        </div>
+      </div>
+      <div class="item-price-container">
+        <div class="item-info">
+          <div>
+            <img alt="item image" src="images/cart_plant_item.png" />
+          </div>
+          <div class="item-info-text">
+            <h2>'Tippy'</h2>
+            <p>
+              Echeveria
+            </p>
+            <div class="pot-size-row">
+              <img alt="pot size 4 active" src="images/pot_size_4_active.png" />
+              <img alt="pot size 6" src="images/pot_size_6.png" />
+            </div>
+            <div class="wishlist-delete-row">
+              <a href="">move to wishlist</a>
+              <p>
+                |
+              </p>
+              <p id="delete-item">
+                delete
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="price-info">
+          <p class="price-info-text">
+            $4.50
+          </p>
+        </div>
+        <div class="quantity-info">
+          <form class="quantity-spinner">
+            <img class="spinner-less" src="images/less_quantity_icon.png" />
+            <input type="number" type name="quantity" value="1" min="0" max="10" />
+            <img class="spinner-more " src="images/more_quantity_icon.png" />
+          </form>
+        </div>
+
+      </div>
+    </div>
+    <div class="subtotal-container">
+      <div class="subtotal-text">
+        <p>
+          subtotal (1 item) :
+        </p>
+        <p class="price-info-text">
+          $4.50
+        </p>
+      </div>
+    </div>
+    <div class="button-row">
+      <form>
+        <input type="button" value="Go back!" onclick="history.back()">
+        <button class="CTA-large-white">Back to Shopping</button>
+      </form>
+      <a href="checkout_billing.html"><button class="CTA-large-green">Checkout</button></a>
+    </div>
+  </section>
+  <section class="estimated-total-container">
+    <h1 class="brush-header">Estimated Total</h1>
+    <div class="estimate-row">
+      <h6>Item Subtotal :</h6>
+      <p>
+        $4.50
+      </p>
+    </div>
+    <div class="estimate-row white">
+      <h6>Sales Tax :</h6>
+      <p>
+        enter location to estimate tax
+      </p>
+    </div>
+    <div class="estimate-row">
+      <form>
+        <select>
+                <option value="United States">
+                  United States
+                </option>
+                <option value="Afghanistan">
+                  Afghanistan
+                </option>
+                <option value="Albania">
+                  Albania
+                </option>
+                <option value="Algeria">
+                  Algeria
+                </option>
+                <option value="Andorra">
+                  Andorra
+                </option>
+            </select>
+        <input type="text" name="zip-code" class="zip-code" value="  zip code" />
+      </form>
+    </div>
+    <div class="estimate-row white">
+      <h6>Shipping :</h6>
+      <p>
+        enter location to estimate cost<br /> *cost given as a range based on shipping methods
+      </p>
+    </div>
+    <div class="estimate-row">
+      <h6>Estimated Total :</h6>
+      <p class="price-info-text">
+        $4.50
+      </p>
+    </div>
+  </section>
+
+
+  <section class="footer-container">
+    <div class="footer-flex-text">
+      <div class="footer-column-text">
+        <p>
+          Contact Us
+        </p>
+        <p>
+          FAQ
+        </p>
+      </div>
+      <div class="footer-column-text">
+        <p>
+          My Account
+        </p>
+        <p>
+          Help Center
+        </p>
+      </div>
+      <div class="footer-column-text">
+        <p>
+          Shop
+        </p>
+        <p>
+          Blog
+        </p>
+      </div>
+    </div>
+    <div class="footer-logo">
+      <img alt="logo" src="images/logo.png" />
+    </div>
+  </section>
+</body>
+<footer>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/index.js"></script>
+</footer>
+
+</html>

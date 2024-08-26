@@ -1,0 +1,98 @@
+.brush {
+  background-image: url(../images/watercolor_thanks_bg.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% cover;
+  height: 15em;
+  width: 56em;
+  margin-top: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brush-header-white {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 4em;
+  color: #fff;
+  text-align: center;
+}
+
+.CTA-large-white {
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  border: 1px solid #607848;
+  border-radius: 4px;
+  padding: 0.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #607848;
+  font-size: 24px;
+}
+
+.thanks-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.thanks-text {
+  text-align: center;
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 1.5em;
+  color: #000;
+}
+
+.sign-up-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  margin-top: 3em;
+  margin-right: 6em;
+}
+
+.form-row {
+  margin-top: 1em;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+
+.text-box-size {
+  width: 6em;
+  /* min-width: 120px;
+  max-width: 120px; */
+  height: 20px;
+  padding-right: 1em;
+  text-align: right;
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 14px;
+  color: #000;
+  white-space: nowrap;
+}
+
+.form-row > input {
+  border: 1px solid #90918a;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  height: 36px;
+  width: 80vw;
+  max-width: 300px;
+}
+
+@media (max-width: 500px) {
+  form {
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .form-row {
+    flex-direction: column;
+    align-items: center;
+  }
+}

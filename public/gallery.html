@@ -1,0 +1,302 @@
+<html>
+
+<head>
+  <title>Houseplant-Product-Page</title>
+  <meta name="author" content="Anne-Elise Chung" />
+  <meta name="keywords" content="Chung, Anne-Elise, plants, plant, indoor, store, product-page" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/header.css" type="text/css" />
+  <link rel="stylesheet" href="css/gallery.css" type="text/css" />
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
+  <link rel="stylesheet" href="css/footer.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+</head>
+
+<body>
+  <section class="header-container">
+    <div class="header-top-icons">
+      <div class="filler">
+        <div class="mobile">
+          <button class="hamburger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+          </button>
+        </div>
+      </div>
+      <a href="index.html">
+        <div>
+          <img class="header-houseplant-logo" alt="houseplant-logo" src="images/logo.png" />
+        </div>
+      </a>
+      <div>
+        <img class="header-cart" alt="cart" src="images/cart.png" />
+      </div>
+    </div>
+    <div class="header-brush">
+      <div class="header-menu">
+        <a href="gallery" class="header-menu-item">SHOP</a>
+        <a href="index.html" class="header-menu-item">HOME</a>
+        <a href="index.html" class="desktop header-menu-item">BLOG</a>
+        <a href="index.html" class="desktop header-menu-item">CONTACT</a>
+      </div>
+    </div>
+  </section>
+
+
+  <div class="filter-and-main-container">
+    <nav class="filter-menu-container">
+      <div class="filter-header-container">
+        <h2 class="filter-header">Product Type</h1>
+          <img alt="minimize icon" src="images/minimize_icon.png" />
+      </div>
+      <div class="filter-product-type-items">
+        <div class="filter-product-type-item filter-gift">
+          <h5>Gifts</h5>
+        </div>
+        <div class="filter-product-type-item filter-easy">
+          <h5>Easy Care</h5>
+        </div>
+        <div class="filter-product-type-item filter-pop">
+          <h5>Most Popular</h5>
+        </div>
+        <div class="filter-product-type-item filter-sale">
+          <h5>Sale</h5>
+        </div>
+        <div class="filter-product-type-spacer">
+
+        </div>
+        <div class="filter-product-type-item filter-cacti">
+          <h5>Cacti</h5>
+        </div>
+        <div class="filter-product-type-item filter-succ">
+          <h5>Succulents</h5>
+        </div>
+        <div class="filter-product-type-item filter-fic">
+          <h5>Ficus</h5>
+        </div>
+        <div class="filter-product-type-spacer">
+
+        </div>
+        <div class="filter-product-type-item filter-pots">
+          <h5>Pots</h5>
+        </div>
+        <div class="filter-product-type-item filter-soil">
+          <h5>Soil</h5>
+        </div>
+        <div class="filter-product-type-spacer">
+
+        </div>
+      </div>
+      <div class="filter-header-container">
+        <h2 class="filter-header">Product Color</h1>
+          <img alt="minimize icon" src="images/minimize_icon.png" />
+      </div>
+      <div class="filter-product-type-colors">
+        <div class="color">
+          <img src="images/color_yellow.png" />
+        </div>
+        <div class="color">
+          <img src="images/color_fuschia.png" />
+        </div>
+        <div class="color">
+          <img src="images/color_green.png" />
+        </div>
+        <div class="color">
+          <img src="images/color_blue.png" />
+        </div>
+        <div class="color">
+          <img src="images/color_red.png" />
+        </div>
+        <div class="color">
+          <img src="images/color_purple.png" />
+        </div>
+        <div class="color">
+          <img src="images/color_teal.png" />
+        </div>
+        <div class="color">
+          <img src="images/color_pink.png" />
+        </div>
+      </div>
+      <div class="filter-header-container">
+        <h2 class="filter-header">Product Size</h1>
+          <img alt="minimize icon" src="images/minimize_icon.png" />
+      </div>
+      <div class="filter-size-container">
+        <div class="filter-size-row">
+          <img alt="size icon" src="images/filter_pot_size_2.png" />
+          <p class="filter-size-text">
+            2" diameter
+          </p>
+        </div>
+        <div class="filter-size-row">
+          <img alt="size icon" src="images/filter_pot_size_4.png" />
+          <p class="filter-size-text">
+            4" diameter
+          </p>
+        </div>
+        <div class="filter-size-row">
+          <img alt="size icon" src="images/filter_pot_size_6.png" />
+          <p class="filter-size-text">
+            6" diameter
+          </p>
+        </div>
+        <div class="filter-size-row">
+          <img alt="size icon" src="images/filter_pot_size_8.png" />
+          <p class="filter-size-text">
+            8" diameter
+          </p>
+        </div>
+      </div>
+      <div class="filter-header-container">
+        <h2 class="filter-header">Price</h1>
+          <img alt="minimize icon" src="images/minimize_icon.png" />
+      </div>
+      <div class="price-slider-container">
+        <div id="slider">
+          <div id="custom-handle" class="ui-slider-handle"></div>
+          <div id="custom-handleb" class="ui-slider-handle"></div>
+        </div>
+    </nav>
+
+    <section class="main-gallery-container">
+      <div class="top-header">
+        <h1 class="brush-header">All Products</h1>
+        <!-- <h1 class="brush-header">Gifts</h1> -->
+        <h1 class="brush-header easy-header">Easy Care</h1>
+        <!-- <h1 class="brush-header">Most Popular</h1>
+          <h1 class="brush-header">Sale</h1>
+          <h1 class="brush-header">Cacti</h1>
+          <h1 class="brush-header">Succulents</h1>
+          <h1 class="brush-header">Ficus</h1>
+          <h1 class="brush-header">Pots</h1>
+          <h1 class="brush-header">Soil</h1> -->
+        <img class="search_icon" alt="search icon" src="images/search_icon.png" />
+      </div>
+      <div class="easy-top-container">
+        <div class="easy-top-text">
+          <p>Our easy to care for varieties include at least one of the following traits.</br>
+            <b>Click on the icons below</b> to find plants with traits that work for you.
+          </p>
+        </div>
+        <div class="easy-icon-row">
+          <div class="easy-icon-container sun-icon">
+            <div class="easy-icon">
+              <img class="icon-inactive" alt="sun icon" src="images/easy_sun.png" />
+              <img class="icon-active sun-icon-active" alt="sun icon active" src="images/easy_sun_active.png" />
+            </div>
+            <h1 class="easy-icon-text">LOW LIGHT NEEDS</h1>
+          </div>
+          <div class="easy-icon-container soil-icon">
+            <div class="easy-icon">
+              <img class="icon-inactive soil-icon" alt="soil icon" src="images/easy_soil.png" />
+              <img class="icon-active soil-icon-active" alt="soil icon active" src="images/easy_soil_active.png" />
+            </div>
+            <h1 class="easy-icon-text">THRIVES IN MOST SOILS</h1>
+          </div>
+          <div class="easy-icon-container water-icon">
+            <div class="easy-icon">
+              <img class="icon-inactive water-icon" alt="water icon" src="images/easy_water.png" />
+              <img class="icon-active water-icon-active" alt="water icon active" src="images/easy_water_active.png" />
+            </div>
+            <h1 class="easy-icon-text">LOW WATER NEEDS</h1>
+          </div>
+          <div class="easy-icon-container temp-icon">
+            <div class="easy-icon">
+              <img class="icon-inactive temp-icon" alt="temp icon" src="images/easy_temp.png" />
+              <img class="icon-active temp-icon-active" alt="temp icon active" src="images/easy_temp_active.png" />
+            </div>
+            <h1 class="easy-icon-text">WIDE TEMPERATURE RANGE</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="items-container">
+
+        <div class="item easy-item sun-active soil-active water-active temp-active">
+          <div class="item-overlay">
+            <h2 class="overlay-text">See More</h2>
+            <img alt="arrow" src="images/gallery_arrow.png" />
+          </div>
+          <img alt="item image" src="{{imagePath}}" />
+          <h2 class="item-title"> {{name}}</h2>
+          <h3 class="item-subtitle">{{family}}</h3>
+          <h4 class="item-price">{{price}}</h4>
+          <div class="item-size-row">
+            <img alt="pot size 4 active" src="images/pot_size_4_active.png" />
+            <img alt="pot size 6" src="images/pot_size_6.png" />
+          </div>
+          <div class="care-icon-row sun-active soil-active water-active temp-active">
+            <img alt="sun icon" src="images/small_sun_active.png"/>
+            <img alt="soil icon" src="images/small_soil_active.png"/>
+            <img alt="water icon" src="images/small_water_active.png"/>
+            <img alt="temp icon" src="images/small_temp_active.png"/>
+          </div>
+          <div class="button-row">
+            <button class="CTA-cart">Add to Cart</button>
+            <button class="CTA-wishlist"><i class="fas fa-heart"></i></button>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="next-prev-container">
+        <button class="prev">
+          <i class="fas fa-angle-left"></i>
+        </button>
+        <h6>Page 1 of 1</h6>
+        <button class="next">
+          <i class="fas fa-angle-right"></i>
+        </button>
+      </div>
+    </section>
+
+  </div>
+
+  <section class="footer-container">
+    <div class="footer-flex-text">
+      <div class="footer-column-text">
+        <p>
+          Contact Us
+        </p>
+        <p>
+          FAQ
+        </p>
+      </div>
+      <div class="footer-column-text">
+        <p>
+          My Account
+        </p>
+        <p>
+          Help Center
+        </p>
+      </div>
+      <div class="footer-column-text">
+        <p>
+          Shop
+        </p>
+        <p>
+          Blog
+        </p>
+      </div>
+    </div>
+    <div class="footer-logo">
+      <img alt="logo" src="images/logo.png" />
+    </div>
+  </section>
+</body>
+<footer>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script src="js/gallery.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js"
+    integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l"
+    crossorigin="anonymous"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js"
+    integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c"
+    crossorigin="anonymous"></script>
+</footer>
+
+</html>

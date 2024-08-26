@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Houseplant-Product-Page</title>
+  <meta name="author" content="Anne-Elise Chung" />
+  <meta name="keywords" content="Chung, Anne-Elise, plants, plant, indoor, store, product-page" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="css/header.css" type="text/css" />
+  <link rel="stylesheet" href="css/checkout.css" type="text/css" />
+  <link rel="stylesheet" href="css/shipping.css" type="text/css" />
+  <link rel="stylesheet" href="css/footer.css" type="text/css" />
+  <link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700" rel="stylesheet">
+</head>
+
+<body>
+  <section class="header-container">
+    <div class="header-top-icons">
+      <div class="filler">
+        <div class="mobile">
+          <button class="hamburger">
+              <div class="bar1"></div>
+              <div class="bar2"></div>
+              <div class="bar3"></div>
+          </button>
+        </div>
+      </div>
+      <a href="index.html">
+        <div>
+          <img class="header-houseplant-logo" alt="houseplant-logo" src="images/logo.png" />
+        </div>
+      </a>
+      <div>
+        <img class="header-cart" alt="cart" src="images/cart.png" />
+      </div>
+    </div>
+    <div class="header-brush">
+      <div class="header-menu">
+        <a href="gallery" class="header-menu-item">SHOP</a>
+        <a href="index.html" class="header-menu-item">HOME</a>
+        <a href="index.html" class="desktop header-menu-item">BLOG</a>
+        <a href="index.html" class="desktop header-menu-item">CONTACT</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="checkout-progress-container">
+    <div class="checkout-progress-top">
+      <p class="checkout-progress-text">
+        Address
+      </p>
+      <p class="checkout-progress-text">
+        Shipping and<br />Payment
+      </p>
+      <p class="checkout-progress-text">
+        Review and<br />Submit
+      </p>
+    </div>
+    <div class="checkout-progress-bottom">
+      <img alt="progress" src="images/checkout_progress2.png" />
+    </div>
+  </section>
+
+
+  <h1 class="brush-header">Shipping Methods</h1>
+
+  <section class="shipping-container">
+    <form id="shipping">
+      <div class="shipping-column-flex">
+        <div class="shipping-option">
+          <input class="radio-button" type="radio" name="shipping-option" value="option1" id="option1" checked/>
+          <label for="option1">
+            <div class="radio-button-box">
+            </div>
+            <div class="shipping-text">
+                <h5>January 15th <b>($3.99)</b></h5>
+                <h6>Standard Shipping (4-5 days)</h6>
+            </div>
+          </label>
+        </div>
+
+
+        <div class="shipping-option">
+          <input class="radio-button" type="radio" name="shipping-option" value="option2" id="option2">
+          <label for="option2">
+            <div class="radio-button-box">
+            </div>
+            <div class="shipping-text">
+              <h5>January 14th <b>($12.99)</b></h5>
+              <h6>UPS 2nd Day Air (3-4 days)</h6>
+            </div>
+          </label>
+        </div>
+      </div>
+
+      <div class="shipping-column-flex">
+        <div class="shipping-option">
+          <input class="radio-button" type="radio" name="shipping-option" value="option3" id="option3">
+          <label for="option3">
+            <div class="radio-button-box">
+            </div>
+            <div class="shipping-text">
+              <h5>January 13th <b>($14.99)</b></h5>
+              <h6>UPS Next Day Air Saver (2-3 days)</h6>
+            </div>
+          </label>
+        </div>
+        <div class="shipping-option">
+          <input class="radio-button" type="radio" name="shipping-option" value="option4" id="option4">
+          <label for="option4">
+            <div class="radio-button-box">
+            </div>
+            <div class="shipping-text">
+              <h5>January 12th <b>($20.99)</b></h5>
+              <h6>UPS Next Day Air (1-2 days)</h6>
+            </div>
+          </label>
+        </div>
+      </div>
+    </form>
+    <p class="disclaimer">
+      *Order before 4:30pm to receive within same day.*
+    </p>
+  </section>
+
+  <section class="overall-payment-container">
+    <div>
+      <h1 class="brush-header">Payment</h1>
+    </div>
+    <div>
+      <p class="sub-header">
+        Pay With PayPal Or Other Alternatives
+      </p>
+    </div>
+    <div class="alt-pay-container">
+      <form id="alt-payment">
+        <div class="alt-pay">
+          <input type="hidden" name="alt-pay" value="pp">
+          <input type="image" src="images/pay_pp.png">
+        </div>
+        <div class="alt-pay">
+          <input type="hidden" name="alt-pay" value="vs">
+          <input type="image" src="images/pay_vs.png">
+        </div>
+        <div class="alt-pay">
+          <input type="hidden" name="alt-pay" value="ama">
+          <input type="image" src="images/pay_ama.png">
+        </div>
+      </form>
+    </div>
+    <p class="sub-header">
+      Pay With Credit Card
+    </p>
+    <div class="pay-container">
+      <form id="payment">
+        <div class="pay">
+          <input type="hidden" name="pay" value="main-vs">
+          <input type="image" src="images/pay_main_vs.png">
+        </div>
+        <div class="pay">
+          <input type="hidden" name="pay" value="main-dis">
+          <input type="image" src="images/pay_main_dis.png">
+        </div>
+        <div class="pay">
+          <input type="hidden" name="pay" value="main-mc">
+          <input type="image" src="images/pay_main_mc.png">
+        </div>
+        <div class="pay">
+          <input type="hidden" name="pay" value="main-ae">
+          <input type="image" src="images/pay_main_ae.png">
+        </div>
+      </form>
+      <div>
+        <form id="pay-details">
+          <div class="form-row">
+            <div class="text-box-size">
+              Card Number
+            </div>
+            <input type="text" name="card-number">
+          </div>
+          <div class="form-row exp-date">
+            <div class="text-box-size">
+              Expiration Date
+            </div>
+            <select id="month">
+              <option value = "January">January</option>
+              <option value = "February">February</option>
+              <option value = "March">March</option>
+              <option value = "April">April</option>
+              <option value = "May">May</option>
+              <option value = "June">June</option>
+              <option value = "July">July</option>
+              <option value = "August">August</option>
+              <option value = "September">September</option>
+              <option value = "October">October</option>
+              <option value = "November">November</option>
+              <option value = "December">December</option>
+            </select>
+            <select id="year">
+              <option value = "2022">2022</option>
+              <option value = "2021">2021</option>
+              <option value = "2020">2020</option>
+              <option value = "2019">2019</option>
+              <option value = "2018">2018</option>
+            </select>
+          </div>
+          <div class="form-row">
+            <div class="text-box-size">
+              CVV
+            </div>
+            <input type="text" name="cvv">
+          </div>
+        </form>
+      </div>
+    </div>
+
+
+    <a href="checkout_review_submit.html"><button class="CTA-large-green">Next : Review and Submit</button></a>
+
+  </section>
+
+
+
+  <section class="footer-container">
+    <div class="footer-flex-text">
+      <div class="footer-column-text">
+        <p>
+          Contact Us
+        </p>
+        <p>
+          FAQ
+        </p>
+      </div>
+      <div class="footer-column-text">
+        <p>
+          My Account
+        </p>
+        <p>
+          Help Center
+        </p>
+      </div>
+      <div class="footer-column-text">
+        <p>
+          Shop
+        </p>
+        <p>
+          Blog
+        </p>
+      </div>
+    </div>
+    <div class="footer-logo">
+      <img alt="logo" src="images/logo.png" />
+    </div>
+  </section>
+</body>
+<footer>
+  <script src="js/jquery-3.3.1.js"></script>
+  <script src="js/checkout.js"></script>
+</footer>
+
+</html>

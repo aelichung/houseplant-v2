@@ -1,0 +1,108 @@
+.contact-billing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+  width: 90vw;
+  max-width: 650px;
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 14px;
+  color: #000;
+}
+
+span {
+  padding-right: 5px;
+  white-space: nowrap;
+  text-align: right;
+}
+
+form > h1 {
+  align-self: center;
+  height: auto;
+}
+
+form > div {
+  padding-top: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border: 1px solid #90918a;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  height: 36px;
+  width: 80vw;
+  max-width: 450px;
+  margin-right: 15%;
+}
+
+.city-state {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 15%;
+  width: 80vw;
+  max-width: 580px;
+}
+
+.city {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 47%;
+}
+
+.city > input {
+  margin-right: 0;
+  flex: 1 1 30%;
+  width: auto;
+}
+
+.state {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-left: 10px;
+  margin-right: 0;
+}
+
+.state > input {
+  margin-right: 0;
+  width: auto;
+  flex: 1 1 20%;
+}
+
+.radio-buttons {
+  margin-left: 20%;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.radio-buttons > div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.radio-flex-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radio-flex-row > span {
+  margin-left: 1em;
+}

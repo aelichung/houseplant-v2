@@ -1,0 +1,264 @@
+.review-details-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  max-width: 1200px;
+  margin: 2em auto;
+}
+
+.review-details-column > a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+.review-details-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  flex-grow: 1;
+}
+
+.brush-header-small {
+  font-family: 'Caveat Brush', cursive;
+  font-size: 2em;
+  color: #75995a;
+  text-align: center;
+}
+
+.review-text-container > p {
+  font-family: 'Open-Sans', sans-serif;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #000;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.CTA-small-white {
+  width: auto;
+  height: 46px;
+  background-color: #fff;
+  border: 1px solid #607848;
+  border-radius: 4px;
+  padding-right: 1em;
+  padding-left: 1em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #607848;
+  font-size: 1.2em;
+}
+
+.green-line-column {
+  width: 1px;
+  height: 420px;
+  background-color: #75995a;
+}
+
+.center-flex {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.center-flex > a > button {
+  margin-top: 1em;
+}
+
+input[type='number'] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+.order-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 3em;
+  width: 90vw;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.order-details {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  background-color: #f2f2f2;
+  width: 60vw;
+  max-width: 710px;
+  height: 40vw;
+  max-height: 290px;
+}
+
+.order-image {
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.order-detail-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: 2em;
+  margin-top: 2em;
+}
+
+.order-detail-right > h2,
+.order-detail-right > p {
+  font-family: 'Open-Sans', sans-serif;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 150%;
+}
+
+.order-header {
+  font-size: 2.25em;
+}
+
+.order-subheader {
+  font-size: 1.2em;
+}
+
+.item-price {
+  font-size: 1.5em;
+  font-weight: 800;
+  margin-bottom: 1em;
+}
+
+.plant-size-row {
+  margin-bottom: 1em;
+}
+
+.quantity-spinner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity-spinner > input {
+  background-color: #f0f0f0;
+  border: 1px solid #90918a;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+}
+
+.order-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: #f2f2f2;
+  width: 40vw;
+  max-width: 400px;
+  height: 40vw;
+  max-height: 290px;
+}
+
+.order-summary > h3 {
+  margin-left: 1em;
+  margin-top: 1em;
+  font-family: 'Open-Sans', sans-serif;
+  color: #000;
+  font-size: 1.75em;
+  font-weight: 400;
+}
+
+.summary-text {
+  margin-left: 2em;
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: space-between;
+  justify-content: flex-start;
+  height: 110%;
+}
+
+.summary-row {
+  font-family: 'Open-Sans', sans-serif;
+  color: #000;
+  font-size: 1em;
+  font-weight: 400;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.green-line-row {
+  width: 15vw;
+  height: 1px;
+  background-color: #75995a;
+}
+
+.summary-row > p {
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 200%;
+}
+
+.last-row {
+  margin-top: 1em;
+}
+
+.total {
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+@media (max-width: 500px) {
+  .green-line-column {
+    display: none;
+  }
+}
+
+@media (max-width: 1200px) {
+  .order-details-container {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  .order-details {
+    align-content: center;
+    justify-content: center;
+    height: 60vh;
+    max-height: none;
+    max-width: none;
+    flex-grow: 1;
+  }
+  .order-detail-right {
+    align-items: center;
+  }
+  .order-summary {
+    max-height: none;
+    height: 40vh;
+    max-width: none;
+    align-self: stretch;
+    flex-grow: 1;
+    align-items: center;
+  }
+  .summary-text {
+    flex-grow: 1;
+    width: 40vh;
+  }
+  .green-line-row {
+    width: 40vh;
+  }
+}

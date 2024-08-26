@@ -1,0 +1,243 @@
+.cart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 90vw;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header-text-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90vw;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #000;
+  font-size: 1.2em;
+  width: 90vw;
+  max-width: 1000px;
+}
+
+.price-div {
+  margin-left: 36%;
+}
+
+.quantity-div {
+  margin-right: 5%;
+}
+
+.item-price-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #e2e2e2;
+  height: 40vh;
+  width: 90vw;
+  max-width: 1000px;
+}
+
+.item-info {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding-left: 2em;
+  padding-top: 2em;
+}
+
+.item-info-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 2em;
+}
+
+.item-info-text > h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 2.25em;
+  margin-top: 0;
+}
+
+.item-info-text > p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 1.2em;
+  margin-top: 0;
+}
+
+.wishlist-delete-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 1em;
+}
+
+.wishlist-delete-row > a {
+  text-decoration: none;
+  color: #000;
+}
+
+.price-info {
+  margin-top: 1em;
+}
+
+.quantity-info {
+  margin-top: 2em;
+  margin-right: 2em;
+}
+
+.quantity-spinner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.quantity-spinner > input {
+  background-color: #fff;
+  border: 1px solid #90918a;
+  width: 75px;
+  height: 30px;
+  text-align: center;
+}
+
+input[type='number'] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+
+.subtotal-container {
+  margin-top: 0.5em;
+  width: 90vw;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #e2e2e2;
+}
+
+.subtotal-text {
+  margin-right: 1em;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  color: #000;
+  font-size: 1.2em;
+}
+
+.button-row {
+  margin-top: 2em;
+  display: flex;
+  align-self: flex-end;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.button-row > form > input {
+  display: none;
+}
+
+.CTA-large-white {
+  width: auto;
+  height: auto;
+  background-color: #fff;
+  border: 1px solid #607848;
+  border-radius: 4px;
+  padding: 0.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #607848;
+  font-size: 24px;
+  margin: 0;
+}
+
+.CTA-large-green {
+  margin: 0;
+  margin-left: 1em;
+}
+
+.estimated-total-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 6em;
+}
+
+.estimate-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90vw;
+  max-width: 600px;
+  background-color: #e2e2e2;
+}
+
+.estimate-row:nth-of-type(3) {
+  height: 4em;
+}
+
+.estimate-row > form {
+  margin-left: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.estimate-row > form > input {
+  border: 1px solid #90918a;
+  background-color: #fff;
+  border-radius: 4px;
+  height: 36px;
+  width: 12em;
+  max-width: 300px;
+  margin-left: 1em;
+}
+
+.estimate-row > form > select {
+  border: 1px solid #90918a;
+  background-color: #fff;
+  border-radius: 4px;
+  max-width: 300px;
+  width: 30vw;
+  height: 36px;
+}
+
+.estimate-row.white {
+  background-color: #fff;
+}
+
+.estimate-row > h6 {
+  margin-left: 1em;
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 800;
+  font-size: 1.2em;
+  color: #000;
+}
+
+.estimate-row > p {
+  margin-right: 1em;
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #000;
+  text-align: right;
+}
+
+.price-info-text {
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 800 !important;
+  font-size: 1.2em !important;
+  color: #000;
+}

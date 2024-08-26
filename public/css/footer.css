@@ -1,0 +1,44 @@
+.CTA-large-green {
+  width: auto;
+  height: auto;
+  background-color: #75995a;
+  border-radius: 4px;
+  padding: 0.5em;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.bottom-text {
+  width: 90vw;
+  margin: 0 auto;
+  margin-bottom: 6em;
+}
+
+.footer-container {
+  background-color: #E0E0E0;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-flex-text {
+  margin-top: 10%;
+  width: 80vw;
+  max-width: 450px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-column-text {
+  font-family: 'Open-Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1em;
+  color: #607848;
+}
